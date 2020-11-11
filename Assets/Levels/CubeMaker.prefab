@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6703993244865069516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6703993244865069517}
+  - component: {fileID: 6703993244865069518}
+  m_Layer: 0
+  m_Name: CubeMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6703993244865069517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6703993244865069516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6703993244865069518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6703993244865069516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd7ebae9415fd0a4da012fa68a2be6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 10
+  width: 20
+  offset: 20
+  background_object: {fileID: 2963433704526781247, guid: 6c0c5d891fbe8464494f6a90633c798e, type: 3}
+  cubes:
+  - {fileID: 2921462535208426520, guid: 3d842d9ad60d20048976b79753c2f08e, type: 3}
+  - {fileID: 3323989846612470226, guid: 47cf77795ec607e439d7f7923ad77500, type: 3}
+  - {fileID: 6826995666043892668, guid: 676eb2c687213ca41a574e9fc4f8cd15, type: 3}
+  - {fileID: 8252637634930791401, guid: 994e26422defa2f469edfeb7b16f255e, type: 3}
+  - {fileID: 5333141775846368544, guid: 1e676fe041b15864c8986fd44490fa69, type: 3}
+  - {fileID: 2236923722181566727, guid: 643050c9d3f3bca4eb748d19168020c4, type: 3}
+  - {fileID: 1365693144085373248, guid: d1e7489414d86734681e7e0f6c2fc1a9, type: 3}
